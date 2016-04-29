@@ -1,0 +1,613 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container-16{ position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .grid-1,
+	.grid-2,
+	.grid-3,
+	.grid-4,
+	.grid-5,
+	.grid-6,
+	.grid-7,
+	.grid-8,
+	.grid-9,
+	.grid-10,
+	.grid-11,
+	.grid-12,
+	.grid-13,
+	.grid-14,
+	.grid-15,
+	.grid-16 { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+
+    /* Nested Column Classes */
+    .container-16 .alpha              	{ margin-left: 0; }
+    .container-16 .omega              	{ margin-right: 0; }
+
+    .grid-views-4 .views-row
+	{ float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+
+
+    .container-16 .grid-views-4 .views-row			{ width: 220px; }
+
+		.grid-views-4 > h2 {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+	.sidebar.grid-right {
+		float: right;
+	}
+
+
+	.page-portfolio #page-title,
+	.page-portfolio-3-cols #page-title,
+	.page-portfolio-2-cols #page-title ,
+	.page-portfolio-1-col #page-title {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.page-portfolio .portfolio-grid .views-row,
+	.page-portfolio-3-cols .portfolio-grid .views-row,
+	.page-portfolio-2-cols .portfolio-grid .views-row,
+	.page-portfolio-1-col .portfolio-grid .views-row {
+		margin-left: 10px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.page-portfolio .portfolio-grid .views-row {
+		width: 220px;
+	}
+
+	.page-portfolio-3-cols .portfolio-grid .views-row {
+		width: 300px;
+	}
+	.page-portfolio-2-cols .portfolio-grid .views-row {
+		width: 460px;
+	}
+	.page-portfolio-1-col .portfolio-grid .views-row {
+		width: 940px;
+	}
+
+    /* Base Grid */
+    .container-16 .grid-1  			{ width: 40px;  }
+    .container-16 .grid-2 			{ width: 100px; }
+    .container-16 .grid-3 			{ width: 160px; }
+    .container-16 .grid-4			{ width: 220px; }
+    .container-16 .grid-5			{ width: 280px; }
+    .container-16 .grid-6  			{ width: 340px; }
+    .container-16 .grid-7 			{ width: 400px; }
+    .container-16 .grid-8 			{ width: 460px; }
+    .container-16 .grid-9 			{ width: 520px; }
+    .container-16 .grid-10 			{ width: 580px; }
+    .container-16 .grid-11 			{ width: 640px; }
+    .container-16 .grid-12 			{ width: 700px; }
+    .container-16 .grid-13 			{ width: 760px; }
+    .container-16 .grid-14 			{ width: 820px; }
+    .container-16 .grid-15 			{ width: 880px; }
+    .container-16 .grid-16			{ width: 940px; }
+	/* Prefix Extra Space >> 16 Columns */
+	.container-16 .prefix_1 		{padding-left:60px;}
+	.container-16 .prefix_2 		{padding-left:120px;}
+	.container-16 .prefix_3 		{padding-left:180px;}
+	.container-16 .prefix_4 		{padding-left:240px;}
+	.container-16 .prefix_5 		{padding-left:300px;}
+	.container-16 .prefix_6 		{padding-left:360px;}
+	.container-16 .prefix_7 		{padding-left:420px;}
+	.container-16 .prefix_8 		{padding-left:480px;}
+	.container-16 .prefix_9 		{padding-left:540px;}
+	.container-16 .prefix_10 		{padding-left:600px;}
+	.container-16 .prefix_11 		{padding-left:660px;}
+	.container-16 .prefix_12 		{padding-left:720px;}
+	.container-16 .prefix_13 		{padding-left:780px;}
+	.container-16 .prefix_14 		{padding-left:840px;}
+	.container-16 .prefix_15 		{padding-left:900px;}
+	/* Suffix Extra Space >> 16 Columns */
+	.container-16 .suffix_1 		{padding-right:60px;}
+	.container-16 .suffix_2 		{padding-right:120px;}
+	.container-16 .suffix_3 		{padding-right:180px;}
+	.container-16 .suffix_4 		{padding-right:240px;}
+	.container-16 .suffix_5 		{padding-right:300px;}
+	.container-16 .suffix_6 		{padding-right:360px;}
+	.container-16 .suffix_7 		{padding-right:420px;}
+	.container-16 .suffix_8 		{padding-right:480px;}
+	.container-16 .suffix_9 		{padding-right:540px;}
+	.container-16 .suffix_10 		{padding-right:600px;}
+	.container-16 .suffix_11 		{padding-right:660px;}
+	.container-16 .suffix_12 		{padding-right:720px;}
+	.container-16 .suffix_13 		{padding-right:780px;}
+	.container-16 .suffix_14 		{padding-right:840px;}
+	.container-16 .suffix_15 		{padding-right:900px;}
+
+/* Pref/Suf Styles */
+	.rt_prefix_1 		{padding-left:60px;}
+	.rt_prefix_2 		{padding-left:120px;}
+	.rt_prefix_3 		{padding-left:180px;}
+	.rt_prefix_4 		{padding-left:240px;}
+	.rt_prefix_5 		{padding-left:300px;}
+	.rt_prefix_6 		{padding-left:360px;}
+	.rt_prefix_7 		{padding-left:420px;}
+	.rt_prefix_8 		{padding-left:480px;}
+	.rt_prefix_9 		{padding-left:540px;}
+	.rt_prefix_10 		{padding-left:600px;}
+	.rt_prefix_11 		{padding-left:660px;}
+	.rt_prefix_12 		{padding-left:720px;}
+	.rt_prefix_13 		{padding-left:780px;}
+	.rt_prefix_14 		{padding-left:840px;}
+	.rt_prefix_15 		{padding-left:900px;}
+	
+	.rt_suffix_1 		{padding-right:60px;}
+	.rt_suffix_2 		{padding-right:120px;}
+	.rt_suffix_3 		{padding-right:180px;}
+	.rt_suffix_4 		{padding-right:240px;}
+	.rt_suffix_5 		{padding-right:300px;}
+	.rt_suffix_6 		{padding-right:360px;}
+	.rt_suffix_7 		{padding-right:420px;}
+	.rt_suffix_8 		{padding-right:480px;}
+	.rt_suffix_9 		{padding-right:540px;}
+	.rt_suffix_10 		{padding-right:600px;}
+	.rt_suffix_11 		{padding-right:660px;}
+	.rt_suffix_12 		{padding-right:720px;}
+	.rt_suffix_13 		{padding-right:780px;}
+	.rt_suffix_14 		{padding-right:840px;}
+	.rt_suffix_15 		{padding-right:900px;}
+	
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 995px) {
+        .container-16                                  { width: 768px; }
+        .grid-1,
+		.grid-2,
+		.grid-3,
+		.grid-4,
+		.grid-5,
+		.grid-6,
+		.grid-7,
+		.grid-8,
+		.grid-9,
+		.grid-10,
+		.grid-11,
+		.grid-12,
+		.grid-13,
+		.grid-14,
+		.grid-15,
+		.grid-16 { margin-left: 10px; margin-right: 10px;  }
+        .container-16 .alpha               { margin-left: 0;}
+        .container-16 .omega               { margin-right: 0;}
+
+
+        .container-16 .grid-views-4 .views-row			{ width: 172px; }
+
+        .page-portfolio .portfolio-grid .views-row {
+			width: 172px;
+		}
+
+		.page-portfolio-3-cols .portfolio-grid .views-row {
+			width: 236px;
+		}
+		.page-portfolio-2-cols .portfolio-grid .views-row {
+			width: 364px;
+		}
+		.page-portfolio-1-col .portfolio-grid .views-row {
+			width: 748px;
+		}
+
+        .container-16 .grid-1 			{ width: 28px; }
+        .container-16 .grid-2			{ width: 76px; }
+        .container-16 .grid-3 			{ width: 124px; }
+        .container-16 .grid-4 			{ width: 172px; }
+        .container-16 .grid-5  			{ width: 220px; }
+        .container-16 .grid-6			{ width: 268px; }
+        .container-16 .grid-7 			{ width: 316px; }
+        .container-16 .grid-8  			{ width: 364px; }
+        .container-16 .grid-9  			{ width: 412px; }
+        .container-16 .grid-10   		{ width: 460px; }
+        .container-16 .grid-11  		{ width: 508px; }
+        .container-16 .grid-12  		{ width: 556px; }
+        .container-16 .grid-13 			{ width: 604px; }
+        .container-16 .grid-14 			{ width: 652px; }
+        .container-16 .grid-15 			{ width: 700px; }
+        .container-16 .grid-16  		{ width: 748px; }
+		/* Prefix Extra Space >> 16 Columns */
+		.container-16 .prefix_1 		{padding-left:48px;}
+		.container-16 .prefix_2 		{padding-left:96px;}
+		.container-16 .prefix_3 		{padding-left:144px;}
+		.container-16 .prefix_4 		{padding-left:192px;}
+		.container-16 .prefix_5 		{padding-left:240px;}
+		.container-16 .prefix_6 		{padding-left:288px;}
+		.container-16 .prefix_7 		{padding-left:336px;}
+		.container-16 .prefix_8 		{padding-left:384px;}
+		.container-16 .prefix_9 		{padding-left:432px;}
+		.container-16 .prefix_10 		{padding-left:480px;}
+		.container-16 .prefix_11 		{padding-left:528px;}
+		.container-16 .prefix_12 		{padding-left:576px;}
+		.container-16 .prefix_13 		{padding-left:614px;}
+		.container-16 .prefix_14 		{padding-left:672px;}
+		.container-16 .prefix_15 		{padding-left:720px;}
+		/* Suffix Extra Space >> 16 Columns */
+		.container-16 .suffix_1 		{padding-right:48px;}
+		.container-16 .suffix_2 		{padding-right:96px;}
+		.container-16 .suffix_3 		{padding-right:144px;}
+		.container-16 .suffix_4 		{padding-right:192px;}
+		.container-16 .suffix_5 		{padding-right:240px;}
+		.container-16 .suffix_6 		{padding-right:288px;}
+		.container-16 .suffix_7 		{padding-right:336px;}
+		.container-16 .suffix_8 		{padding-right:384px;}
+		.container-16 .suffix_9 		{padding-right:432px;}
+		.container-16 .suffix_10 		{padding-right:480px;}
+		.container-16 .suffix_11 		{padding-right:528px;}
+		.container-16 .suffix_12 		{padding-right:576px;}
+		.container-16 .suffix_13 		{padding-right:614px;}
+		.container-16 .suffix_14 		{padding-right:672px;}
+		.container-16 .suffix_15 		{padding-right:720px;}
+		
+		/* Pref/Suf Styles */
+			.rt_prefix_1 		{padding-left:30px;}
+			.rt_prefix_2 		{padding-left:60px;}
+			.rt_prefix_3 		{padding-left:90px;}
+			.rt_prefix_4 		{padding-left:120px;}
+			.rt_prefix_5 		{padding-left:150px;}
+			.rt_prefix_6 		{padding-left:180px;}
+			.rt_prefix_7 		{padding-left:210px;}
+			.rt_prefix_8 		{padding-left:240px;}
+			.rt_prefix_9 		{padding-left:270px;}
+			.rt_prefix_10 		{padding-left:300px;}
+			.rt_prefix_11 		{padding-left:330px;}
+			.rt_prefix_12 		{padding-left:360px;}
+			.rt_prefix_13 		{padding-left:390px;}
+			.rt_prefix_14 		{padding-left:420px;}
+			.rt_prefix_15 		{padding-left:450px;}
+			
+			.rt_suffix_1 		{padding-right:30px;}
+			.rt_suffix_2 		{padding-right:60px;}
+			.rt_suffix_3 		{padding-right:90px;}
+			.rt_suffix_4 		{padding-right:120px;}
+			.rt_suffix_5 		{padding-right:150px;}
+			.rt_suffix_6 		{padding-right:180px;}
+			.rt_suffix_7 		{padding-right:210px;}
+			.rt_suffix_8 		{padding-right:240px;}
+			.rt_suffix_9 		{padding-right:270px;}
+			.rt_suffix_10 		{padding-right:300px;}
+			.rt_suffix_11 		{padding-right:330px;}
+			.rt_suffix_12 		{padding-right:360px;}
+			.rt_suffix_13 		{padding-right:390px;}
+			.rt_suffix_14 		{padding-right:420px;}
+			.rt_suffix_15 		{padding-right:450px;}
+	
+    }
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container-16 { width: 300px; }
+        
+        .grid-1,
+		.grid-2,
+		.grid-3,
+		.grid-4,
+		.grid-5,
+		.grid-6,
+		.grid-7,
+		.grid-8,
+		.grid-9,
+		.grid-10,
+		.grid-11,
+		.grid-12,
+		.grid-13,
+		.grid-14,
+		.grid-15,
+		.grid-16 {margin: 0; display: block; float: none;}
+
+
+         .grid-views-4 .views-row
+		{ float: left; display: inline; margin-left: 0px; margin-right: 0px; }
+
+
+	    .container-16 .grid-views-4 .views-row			{ width: 300px; margin-bottom: 30px; }
+
+			.grid-views-4 > h2 {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+
+		.sidebar.grid-right {
+			float: none;
+		}
+
+		.page-portfolio #page-title,
+		.page-portfolio-3-cols #page-title,
+		.page-portfolio-2-cols #page-title ,
+		.page-portfolio-1-col #page-title
+		 {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+
+		.page-portfolio .portfolio-grid .views-row,
+		.page-portfolio-3-cols .portfolio-grid .views-row,
+		.page-portfolio-2-cols .portfolio-grid .views-row,
+		.page-portfolio-1-col .portfolio-grid .views-row {
+			width: 300px;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+        .container-16 .grid-1,
+        .container-16 .grid-2,
+        .container-16 .grid-3,
+        .container-16 .grid-4,
+        .container-16 .grid-5,
+        .container-16 .grid-6,
+        .container-16 .grid-7,
+        .container-16 .grid-8,
+        .container-16 .grid-9,
+        .container-16 .grid-10,
+        .container-16 .grid-11,
+        .container-16 .grid-12,
+        .container-16 .grid-13,
+        .container-16 .grid-14,
+        .container-16 .grid-15,
+        .container-16 .grid-16{ width: 300px; margin-bottom: 30px;}
+		/* Prefix Extra Space >> 12 Columns */
+		.container-16 .prefix_1,
+		.container-16 .prefix_2,
+		.container-16 .prefix_3,
+		.container-16 .prefix_4,
+		.container-16 .prefix_5,
+		.container-16 .prefix_6,
+		.container-16 .prefix_7,
+		.container-16 .prefix_8,
+		.container-16 .prefix_9,
+		.container-16 .prefix_10,
+		.container-16 .prefix_11,
+		.container-16 .prefix_12,
+		.container-16 .prefix_13,
+		.container-16 .prefix_14,
+		.container-16 .prefix_15{padding-left:0;}
+		/* Suffix Extra Space >> 12 Columns */
+		.container-16 .suffix_1,
+		.container-16 .suffix_2,
+		.container-16 .suffix_3,
+		.container-16 .suffix_4,
+		.container-16 .suffix_5,
+		.container-16 .suffix_6,
+		.container-16 .suffix_7,
+		.container-16 .suffix_8,
+		.container-16 .suffix_9,
+		.container-16 .suffix_10,
+		.container-16 .suffix_11,
+		.container-16 .suffix_12,
+		.container-16 .suffix_13,
+		.container-16 .suffix_14,
+		.container-16 .suffix_15{padding-right:0;}
+		
+		/* Pref/Suf Styles */
+			.rt_prefix_1,
+			.rt_prefix_2,
+			.rt_prefix_3,
+			.rt_prefix_4,
+			.rt_prefix_5,
+			.rt_prefix_6,
+			.rt_prefix_7,
+			.rt_prefix_8,
+			.rt_prefix_9,
+			.rt_prefix_10,
+			.rt_prefix_11,
+			.rt_prefix_12,
+			.rt_prefix_13,
+			.rt_prefix_14,
+			.rt_prefix_15{padding-left:0px;}
+			
+			.rt_suffix_1,
+			.rt_suffix_2,
+			.rt_suffix_3,
+			.rt_suffix_4,
+			.rt_suffix_5,
+			.rt_suffix_6,
+			.rt_suffix_7,
+			.rt_suffix_8,
+			.rt_suffix_9,
+			.rt_suffix_10,
+			.rt_suffix_11,
+			.rt_suffix_12,
+			.rt_suffix_13,
+			.rt_suffix_14,
+			.rt_suffix_15{padding-right:0px;}
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container-16 { width: 420px; }
+        
+        .grid-1,
+		.grid-2,
+		.grid-3,
+		.grid-4,
+		.grid-5,
+		.grid-6,
+		.grid-7,
+		.grid-8,
+		.grid-9,
+		.grid-10,
+		.grid-11,
+		.grid-12,
+		.grid-13,
+		.grid-14,
+		.grid-15,
+		.grid-16 {margin: 0; display: block;}
+
+        .container-16 .grid-views-4 .views-row			{ width: 420px; }
+
+
+        .page-portfolio .portfolio-grid .views-row,
+		.page-portfolio-3-cols .portfolio-grid .views-row,
+		.page-portfolio-2-cols .portfolio-grid .views-row {
+			width: 200px;
+		}
+			.page-portfolio .portfolio-grid .views-row.views-row-odd,
+			.page-portfolio-3-cols .portfolio-grid .views-row.views-row-odd,
+			.page-portfolio-2-cols .portfolio-grid .views-row.views-row-odd {
+				margin-right: 10px;
+			}
+			.page-portfolio .portfolio-grid .views-row.views-row-even,
+			.page-portfolio-3-cols .portfolio-grid .views-row.views-row-even,
+			.page-portfolio-2-cols .portfolio-grid .views-row.views-row-even  {
+				margin-left: 10px;
+			}
+
+		.page-portfolio-1-col .portfolio-grid .views-row {
+			width: 420px;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+        .container-16 .grid-1,
+        .container-16 .grid-2,
+        .container-16 .grid-3,
+        .container-16 .grid-4,
+        .container-16 .grid-5,
+        .container-16 .grid-6,
+        .container-16 .grid-7,
+        .container-16 .grid-8,
+        .container-16 .grid-9,
+        .container-16 .grid-10,
+        .container-16 .grid-11,
+        .container-16 .grid-12,
+        .container-16 .grid-13,
+        .container-16 .grid-14,
+        .container-16 .grid-15,
+        .container-16 .grid-16{ width: 420px; }
+		/* Prefix Extra Space >> 12 Columns */
+		.container-16 .prefix_1,
+		.container-16 .prefix_2,
+		.container-16 .prefix_3,
+		.container-16 .prefix_4,
+		.container-16 .prefix_5,
+		.container-16 .prefix_6,
+		.container-16 .prefix_7,
+		.container-16 .prefix_8,
+		.container-16 .prefix_9,
+		.container-16 .prefix_10,
+		.container-16 .prefix_11,
+		.container-16 .prefix_12,
+		.container-16 .prefix_13,
+		.container-16 .prefix_14,
+		.container-16 .prefix_15{padding-left:0;}
+		/* Suffix Extra Space >> 12 Columns */
+		.container-16 .suffix_1,
+		.container-16 .suffix_2,
+		.container-16 .suffix_3,
+		.container-16 .suffix_4,
+		.container-16 .suffix_5,
+		.container-16 .suffix_6,
+		.container-16 .suffix_7,
+		.container-16 .suffix_8,
+		.container-16 .suffix_9,
+		.container-16 .suffix_10,
+		.container-16 .suffix_11,
+		.container-16 .suffix_12,
+		.container-16 .suffix_13,
+		.container-16 .suffix_14,
+		.container-16 .suffix_15{padding-right:0;}
+		
+		/* Pref/Suf Styles */
+			.rt_prefix_1,
+			.rt_prefix_2,
+			.rt_prefix_3,
+			.rt_prefix_4,
+			.rt_prefix_5,
+			.rt_prefix_6,
+			.rt_prefix_7,
+			.rt_prefix_8,
+			.rt_prefix_9,
+			.rt_prefix_10,
+			.rt_prefix_11,
+			.rt_prefix_12,
+			.rt_prefix_13,
+			.rt_prefix_14,
+			.rt_prefix_15{padding-left:0px;}
+			
+			.rt_suffix_1,
+			.rt_suffix_2,
+			.rt_suffix_3,
+			.rt_suffix_4,
+			.rt_suffix_5,
+			.rt_suffix_6,
+			.rt_suffix_7,
+			.rt_suffix_8,
+			.rt_suffix_9,
+			.rt_suffix_10,
+			.rt_suffix_11,
+			.rt_suffix_12,
+			.rt_suffix_13,
+			.rt_suffix_14,
+			.rt_suffix_15{padding-right:0px;}
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container-16:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
